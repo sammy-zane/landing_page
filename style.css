@@ -4,6 +4,8 @@ body {
     padding-right: 30px;
 }
 
+/* Head-Section */
+
 .header {
     background-color: #1F2937; 
     display: flex;
@@ -40,6 +42,9 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    width: 800px;
+    height: 200px;
+    flex: auto;
 }
 .hero {
     display: flex;
@@ -68,16 +73,78 @@ button {
     height: 200px;
     background-color: grey;
     color: white;
+    flex: auto;
 }
 
+/* Main-Section */
 
 .main {
     background-color: white;
-    width: 800px;
-    height: 200px;
 }
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration {
+    width: 100px;
+    height: 100px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote.Thor {
+    align-items: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;    
+}
+
+.inside {
+    color: #F9FAF8;
+}
+
+/* Footer-Section */
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
